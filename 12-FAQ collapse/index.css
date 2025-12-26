@@ -1,34 +1,35 @@
-* {
+*box {
     box-sizing: border-box;
 }
 
 body {
     background-color: azure;
-    font-family: sans-serif;
 }
 
 h1 {
-
     margin: 50px 0 30px;
     text-align: center;
 }
 
 .faq-container {
-    max-width: 600px;
-    margin: 30px auto;
+    max-width: 800px;
+    margin: 0 auto;
+
+
 }
+
 
 .faq {
     border: 1px solid;
-    margin: 20px 0 30px;
     padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
     position: relative;
-    transition: 0.3s;
+    overflow: hidden;
 }
 
 .faq.active {
     background-color: whitesmoke;
-
 }
 
 .faq.active::after,
@@ -37,23 +38,22 @@ h1 {
     font-family: 'Font Awesome 5 Free';
     color: aquamarine;
     font-size: 7rem;
-    cursor: pointer;
-    opacity: 0.2;
     position: absolute;
     top: 20px;
     left: 20px;
+    opacity: 0.2;
 }
 
-.faq.active::after {
-    content: '\f075';
+.faq.active::before {
+    position: absolute;
+    top: -10px;
+    left: -30px;
     color: aqua;
-    top: -30px;
-    left: -10px;
     transform: rotateY(180deg);
 }
 
 .faq-title {
-    margin: 20px 0;
+    margin: 20 35px 0;
 }
 
 .faq-text {
@@ -64,36 +64,43 @@ h1 {
     display: block;
 }
 
+.faq-toggle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 30px;
+    cursor: pointer;
+    right: 30px;
+    border: 0;
+    border-radius: 50%;
+    font-size: 16px;
+    width: 30px;
+    height: 30px;
+    border: 0;
 
-.faq.active .faq-toggle .fa-times {
-    display: block;
-
-
+    background-color: transparent;
 }
 
 .faq-toggle .fa-times {
     display: none;
 }
 
-.faq.active .faq-toggle .fa-chevron-down {
-    display: none;
+.faq.active .faq-toggle .fa-times {
+    display: block;
+    color: #fff;
+
 }
 
 .faq-toggle:focus {
     outline: none;
 }
 
-.faq-toggle {
-
-    border: 0;
-    width: 30px;
-    height: 30px;
+.faq.active .faq-toggle {
     background-color: grey;
-    border-radius: 50%;
-    color: #fff;
-    cursor: pointer;
-    position: absolute;
-    top: 20px;
-    right: 20px;
+}
+
+.faq.active .faq-toggle .fa-chevron-down {
+    display: none;
 
 }
