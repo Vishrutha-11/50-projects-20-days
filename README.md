@@ -37,7 +37,7 @@ git clone https://github.com/Vishrutha-11/50-projects-20-days.git
 
 3.Open the Project Folder
 
-cd guess-my-number
+cd 50-projects-20-days
 
 4.Open the Folder in VS Code
 
