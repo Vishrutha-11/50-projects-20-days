@@ -8,21 +8,25 @@ These projects helped me strengthen my core JavaScript concepts, DOM manipulatio
 - VS Code
 - Git & GitHub
 ## 📂 Projects Included
-- Guess My Number Game
-- Dad Joke Generator (Fetch API)
-- Progress Steps
-- Form Wave Animation
-- Split Landing Page
-- Animated Buttons
-- Theme Toggle App
-- Counter App
-- Modal Popup
-- FAQ Accordion
-- Image Slider
-- Random Password Generator
-- ToDo App (Mini Version)
-- Hover Effects UI
-- More JavaScript UI Projects
+
+1. Expanding Cards  
+2. Progress Steps  
+3. Hidden Search Widget  
+4. Blurry Loading  
+5. Scroll Animation  
+6. Split Landing Page  
+7. Rotating Navigation Animation  
+8. Form Wave Animation  
+9. Sound Board  
+10. Dad Joke Generator (Fetch API)  
+11. Event Key Codes  
+12. FAQ Collapse  
+13. Random Choice Picker  
+14. Animated Navigation  
+15. Incrementing Counter  
+16. Button Ripple Effect  
+
+Each project is placed in its **own folder** and runs independently.
 
 **Steps to Run Any Project**
 
