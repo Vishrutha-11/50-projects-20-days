@@ -49,3 +49,8 @@ You can run it directly — no server needed.
 Right-click index.html → Open with Chrome OR
 
 In VS Code → Right-click index.html → Open with Live Server
+
+6. Start exploring the projects
+
+Open any project folder and interact with the UI to see frontend concepts in action
+
