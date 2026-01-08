@@ -33,7 +33,7 @@ Each project is placed in its **own folder** and runs independently.
 1.Open Command Prompt Press Win + R, type cmd, and press Enter.
 
 2.Clone the Repository
-git clone https://github.com/Vishrutha-11/50-projects-20-days.git
+50-projects-20-day
 
 3.Open the Project Folder
 
