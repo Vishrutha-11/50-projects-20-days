@@ -30,18 +30,20 @@ Each project is placed in its **own folder** and runs independently.
 
 **Steps to Run Any Project**
 
-Open Command Prompt Press Win + R, type cmd, and press Enter.
+1.Open Command Prompt Press Win + R, type cmd, and press Enter.
 
-Clone the Repository
+2.Clone the Repository
 git clone https://github.com/Vishrutha-11/50-projects-20-days.git
 
-Open the Project Folder
+3.Open the Project Folder
+
 cd guess-my-number
 
-Open the Folder in VS Code
+4.Open the Folder in VS Code
+
 code .
 
-Run the Project
+5.Run the Project
 You can run it directly — no server needed.
 
 Right-click index.html → Open with Chrome OR
