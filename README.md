@@ -36,10 +36,10 @@ Each project is placed in its **own folder** and runs independently.
 git clone https://github.com/Vishrutha-11/50-projects-20-days.git
 
 3.Open the Project Folder
-cd 50-projects-20-days
+ cd 50-projects-20-days
 
 4.Open the Folder in VS Code
-code .
+ code .
 
 5.Run the Project
 You can run it directly — no server needed.
